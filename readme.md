@@ -20,6 +20,7 @@ To run locally, clone the repo and run the following commands:
 * Faux page loading 
 * Fully responsive
 * Search modal with suggested searches
+* Tooltip on disabled button hover
 * Filters accordion
 * Left menu items convert to a mobile menu
 * Right menu item has dropdown on hover
