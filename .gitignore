@@ -1,0 +1,10 @@
+# Folders
+/.idea/
+/node_modules/
+
+# Files
+public_html/assets/js/main.min.js
+public_html/assets/css/master.min.css
+/src/css/staging.less
+/src/js/es6-compiled.js
+package-lock.json
