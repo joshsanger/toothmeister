@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <title>Tooth Meister</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicons/safari-pinned-tab.svg" color="#2aa2c3">
+    <link rel="shortcut icon" href="./assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2aa2c3">
+    <meta name="msapplication-config" content="./assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#2aa2c3">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-zhaLg9HKxTxDljOPXpWHGn91XMDH+sYAWRSgvzHes290/ISyrNicGrd6BInTnx3L" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/master.min.css">
+</head>
+<body class="loading">
+    <main>
+        <header>
+            <div class="container full">
+                <div class="flex-wrapper center">
+                    <a href="#" class="logo"><span class="font-600">tooth</span>meister</a>
+                    <nav>
+                        <span class="mobile-menu-overlay"></span>
+                        <div data-mobile-title="How can we help you?" class="also-mobile">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">My Feed</a>
+                                </li>
+                                <li>
+                                    <a href="#">Upload Photo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dentist Directory</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li class="open-search">
+                                <span><i class="far fa-search"></i></span>
+                            </li>
+                            <li class="notifications">
+                                <a href="#">
+                                    <i class="far fa-bell"></i>
+                                    <em>2</em>
+                                </a>
+                            </li>
+                            <li class="user">
+                                <div>
+                                    <span class="image" style="background-image: url(./assets/images/doctor.png)" aria-label="Asset was not available in Zeplin"></span>
+                                    <span class="name"><span>Dr. Lucy Vasquez</span> <i class="fas fa-caret-down"></i></span>
+                                </div>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-user"></i> My account</a></li>
+                                    <li><a href="#"><i class="fas fa-bookmark"></i> My favourites</a></li>
+                                    <li><a href="#"><i class="fas fa-cog"></i> My settings</a></li>
+                                </ul>
+                            </li>
+                            <li class="mobile-menu-trigger">
+                                <span>
+                                    <i class="far fa-bars"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div> <!-- /flex-wrapper -->
+            </div> <!-- /container -->
+        </header>
+        <section class="feed-wrapper">
+            <div class="container">
+                <h1>My Feed</h1>
+                <div class="filters-wrap">
+                    <div class="filters-title">
+                        <span><span>Filters</span> <i class="fas fa-caret-down"></i></span>
+                    </div> <!-- /filter-title -->
+                    <div class="filters-content">
+                        <p>Filtering options would be displayed here for the user; checkboxes, radio buttons, category drop downs, etc.</p>
+                    </div> <!-- /filter-content -->
+                </div>
+                <div class="grid">
+                    <article class="grid-item card">
+                        <div class="category technology">
+                            <a href="#" class="border-hover blog">Blog</a>
+                            <a href="#" class="border-hover cat">Technology</a>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/dose.jpg" alt="Dose Media"/>
+                        </div>
+                        <div class="text">
+                            <h2><a href="#">How to take the best pictures at your practice</a></h2>
+                            <div class="actions">
+                                <div class="flex-wrapper between center">
+                                    <span class="date">March 14, 2018</span>
+                                    <div class="social">
+                                        <span class="like">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>275</span>
+                                        </span>
+                                        <span class="comment">
+                                            <i class="material-icons">mode_comment</i>
+                                            <span>12</span>
+                                        </span>
+                                        <span class="share">
+                                            <i class="material-icons">reply</i>
+                                            <span>12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>There isn’t always time (or money!) to get a professional photographer to take photos for you so we’ve put together a list of tips & tricks.</p>
+                        </div> <!-- /text -->
+                        <div class="author foot">
+                            <div class="flex-wrapper center">
+                                <div class="image" style="background-image: url(./assets/images/dr-bob.jpg)"></div> <!-- /image -->
+                                <div class="text">
+                                    <h3>Dr. Bob Abborford, DMD</h3>
+                                    <p><em>Dr. Yankem</em> <span><i class="material-icons">location_on</i> Baltimore, MD</span></p>
+                                </div> <!-- /text -->
+                            </div> <!-- /flex-wrapper -->
+                        </div> <!-- /author -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <a href="#" class="tag">Practice MGMT</a>
+                            <h2><a href="#">Who manages the supplies and ordering at your practice?</a></h2>
+                            <div class="actions">
+                                <div class="flex-wrapper between center">
+                                    <span class="date">17 minutes ago</span>
+                                    <div class="social">
+                                        <span class="like">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>275</span>
+                                        </span>
+                                        <span class="comment">
+                                            <i class="material-icons">mode_comment</i>
+                                            <span>12</span>
+                                        </span>
+                                        <span class="share">
+                                            <i class="material-icons">reply</i>
+                                            <span>12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>For pens and stationary and stuff like that, I typically don’t need to be involved in ordering or pricing discussions, but I’m finding that my…</p>
+                        </div> <!-- /text -->
+                        <div class="author foot">
+                            <div class="flex-wrapper center">
+                                <div class="image" style="background-image: url(./assets/images/dr-bob.jpg)"></div> <!-- /image -->
+                                <div class="text">
+                                    <h3>Dr. Bob Abborford, DMD</h3>
+                                    <p><em>Dr. Yankem</em> <span><i class="material-icons">location_on</i> Baltimore, MD</span></p>
+                                </div> <!-- /text -->
+                            </div> <!-- /flex-wrapper -->
+
+                        </div> <!-- /author -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="image">
+                            <img src="./assets/images/xray.jpg" alt="Teeth Xray"/>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="tag">Practice MGMT</a>
+                            <h2><a href="#">How to take the best pictures at your practice</a></h2>
+                            <div class="actions">
+                                <div class="flex-wrapper between center">
+                                    <span class="date">March 14, 2018</span>
+                                    <div class="social">
+                                        <span class="like">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>275</span>
+                                        </span>
+                                        <span class="comment">
+                                            <i class="material-icons">mode_comment</i>
+                                            <span>12</span>
+                                        </span>
+                                        <span class="share">
+                                            <i class="material-icons">reply</i>
+                                            <span>12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>There isn’t always time (or money!) to get a professional photographer to take photos for you so we’ve put together a list of tips & tricks.</p>
+                        </div> <!-- /text -->
+                        <div class="author foot">
+                            <div class="flex-wrapper center">
+                                <div class="image" style="background-image: url(./assets/images/dr-bob.jpg)"></div> <!-- /image -->
+                                <div class="text">
+                                    <h3>Dr. Bob Abborford, DMD</h3>
+                                    <p><em>Dr. Yankem</em> <span><i class="material-icons">location_on</i> Baltimore, MD</span></p>
+                                </div> <!-- /text -->
+                            </div> <!-- /flex-wrapper -->
+                        </div> <!-- /author -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <a href="#" class="tag">Practice MGMT</a>
+                            <h2><a href="#">Who manages the supplies and ordering at your practice?</a></h2>
+                            <div class="actions">
+                                <div class="flex-wrapper between center">
+                                    <span class="date">17 minutes ago</span>
+                                    <div class="social">
+                                        <span class="like">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>275</span>
+                                        </span>
+                                        <span class="comment">
+                                            <i class="material-icons">mode_comment</i>
+                                            <span>12</span>
+                                        </span>
+                                        <span class="share">
+                                            <i class="material-icons">reply</i>
+                                            <span>12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>For pens and stationary and stuff like that, I typically don’t need to be involved in ordering or pricing discussions, but I’m finding that my…</p>
+                        </div> <!-- /text -->
+                        <div class="author foot">
+                            <div class="flex-wrapper center">
+                                <div class="image" style="background-image: url(./assets/images/dr-bob.jpg)"></div> <!-- /image -->
+                                <div class="text">
+                                    <h3>Dr. Bob Abborford, DMD</h3>
+                                    <p><em>Dr. Yankem</em> <span><i class="material-icons">location_on</i> Baltimore, MD</span></p>
+                                </div> <!-- /text -->
+                            </div> <!-- /flex-wrapper -->
+
+                        </div> <!-- /author -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card private-group">
+                        <div class="text">
+                            <span class="group">Private Group</span>
+                            <div class="flex-wrapper">
+                                <div>
+                                    <h2><a href="#">Dentshine Staff Members</a></h2>
+                                    <p class="secondary">147 Members</p>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="./assets/images/dentshine.jpg" alt="Dentshine">
+                                    </a>
+                                </div>
+                            </div>
+                        </div> <!-- /text -->
+                        <div class="foot">
+                            <p class="center"><strong>There are <a href="#" class="border-hover blue">3 new conversations</a> to catch up on</strong></p>
+                        </div>
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item featured-provider">
+                        <a href="#">
+                            <img src="./assets/images/featured.jpg" alt="Delta Dental" />
+                        </a>
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <div style="height: 279px;"></div> <!-- As per the mockup -->
+                        </div> <!-- /text -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <div style="height: 242px;"></div> <!-- As per the mockup -->
+                        </div> <!-- /text -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="category practice-management">
+                            <a href="#" class="border-hover blog">Blog</a>
+                            <a href="#" class="border-hover cat">Practice Management</a>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/cavity-filling.jpg" alt="Filling a cavity"/>
+                        </div>
+                        <div class="text">
+                            <h2><a href="#">This is another article about practice management</a></h2>
+                            <div class="actions">
+                                <div class="flex-wrapper between center">
+                                    <span class="date">March 10, 2018</span>
+                                    <div class="social">
+                                        <span class="like">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span>275</span>
+                                        </span>
+                                        <span class="comment">
+                                            <i class="material-icons">mode_comment</i>
+                                            <span>12</span>
+                                        </span>
+                                        <span class="share">
+                                            <i class="material-icons">reply</i>
+                                            <span>12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun. The truth is the universe is constantly...</p>
+                        </div> <!-- /text -->
+                        <div class="author foot">
+                            <div class="flex-wrapper center">
+                                <div class="image" style="background-image: url(./assets/images/dr-bob.jpg)"></div> <!-- /image -->
+                                <div class="text">
+                                    <h3>Dr. Bob Abborford, DMD</h3>
+                                    <p><em>Dr. Yankem</em> <span><i class="material-icons">location_on</i> Baltimore, MD</span></p>
+                                </div> <!-- /text -->
+                            </div> <!-- /flex-wrapper -->
+                        </div> <!-- /author -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <div style="height: 348px;"></div> <!-- As per the mockup -->
+                        </div> <!-- /text -->
+                    </article> <!-- /grid-item -->
+                    <article class="grid-item card">
+                        <div class="text">
+                            <div style="height: 349px;"></div> <!-- As per the mockup -->
+                        </div> <!-- /text -->
+                    </article> <!-- /grid-item -->
+                </div>
+            </div> <!-- /container -->
+        </section> <!-- /feed -->
+        <footer>
+            <div class="container">
+                <div class="top">
+                    <div class="flex-wrapper">
+                        <div class="left">
+                            <p>
+                                <a href="#" class="title"><span class="font-600">tooth</span>meister</a>
+                            </p>
+                            <p>
+                                <a href="#" class="email">support@toothmeister.com</a>
+                            </p>
+                            <form action="" class="flex-wrapper between" autocomplete="off">
+                                <div class="input-wrap">
+                                    <input type="email" id="subscribe" placeholder="Enter your email address" required>
+                                </div> <!-- /input-wrap -->
+                                <button class="button" data-tooltip="Enter your email">
+                                    Sign up
+                                </button>
+                            </form> <!-- /flex-wrapper -->
+                        </div> <!-- /left -->
+                        <div class="right">
+                            <div class="flex-wrapper">
+                                <div class="footer-links third">
+                                    <h4><a href="#">Heading 1</a></h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div> <!-- /footer-links -->
+                                <div class="footer-links third">
+                                    <h4><a href="#">About</a></h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div> <!-- /footer-links -->
+                                <div class="footer-links third">
+                                    <h4><a href="#">Heading 3</a></h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div> <!-- /footer-links -->
+                            </div> <!-- /right -->
+                            </div> <!-- /flex-wrapper -->
+                    </div> <!-- /flex-wrapper -->
+                </div>
+                <div class="bottom">
+                    <div class="flex-wrapper center">
+                        <div class="left">
+                            <p>&copy; Copyright 2018 Toothmeister</p>
+                        </div> <!-- /left -->
+                        <div class="right">
+                            <div class="flex-wrapper center between">
+                                <div>
+                                    <span>
+                                        <a href="#">Terms of use</a>
+                                    </span>
+                                    <span>
+                                        <a href="#">Privacy Policy</a>
+                                    </span>
+                                    <span>
+                                        <a href="#">Trust & Safety</a>
+                                    </span>
+                                </div>
+                                <div>
+                                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div> <!-- /flex-wrapper -->
+                        </div> <!-- /right -->
+                    </div> <!-- /flex-wrapper -->
+                </div>
+            </div><!-- /container -->
+        </footer>
+    </main>
+    <div class="search-modal">
+        <div class="search-modal-content">
+            <div class="search-overlay close-search"></div>
+            <div>
+                <div class="close-search close-button"><i class="far fa-times"></i></div>
+                <form action="" id="search-form" autocomplete="off">
+                    <div class="input-wrap">
+                        <input type="text" id="search" required placeholder="Search..." />
+                    </div>
+                    <button class="button" id="submit-search" disabled data-tooltip="Please enter something">
+                        SEARCH
+                    </button>
+                </form>
+                <div class="popular-searches">
+                    <h2>Popular Searches</h2>
+                    <div class="items">
+                        <a href="#">Denture implants</a>
+                        <a href="#">New patient intake</a>
+                        <a href="#">Cavity fillings</a>
+                        <a href="#">Frequently asked questions</a>
+                        <a href="#">Root canals</a>
+                        <a href="#">Contacting us</a>
+                        <a href="#">Benefits coverage</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /search-modal-content -->
+        <div class="search-overlay close-search"></div>
+    </div> <!--search-modal -->
+    <div class="loading-modal">
+        <div class="flex-wrapper center middle">
+            <div>
+                <div class="title"><span class="font-600">tooth</span>meister</div>
+                <div class="loader">
+                    <span><span class="fill"></span></span>
+                    <span>Fetching your feed</span>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /loading-modal -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/masonry.min.js"></script>
+    <script src="./assets/js/main.min.js"></script>
+</body>
+</html>
