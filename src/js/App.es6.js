@@ -92,6 +92,7 @@ export default class App {
      * Closes the mobile menu
      */
     close_mobileMenu() {
+
         if (window.innerWidth <= 1024 && this.mobileMenu.hasClass('active')) {
             this.mobileMenu.removeClass('active');
             this.mobileMenuOverlay.removeClass('active');
@@ -142,9 +143,9 @@ export default class App {
         } else if (!$('body').hasClass('masonry-init') && w > breakpoint) {
 
             this.masonry = $('.grid').masonry({
-                columnWidth: 350,
-                fitWidth: true,
-                gutter: 30,
+                columnWidth : 350,
+                fitWidth    : true,
+                gutter      : 30,
                 itemSelector: '.grid-item',
             });
 
@@ -163,6 +164,7 @@ export default class App {
         this.progress.interval = setInterval(() => {
             this.animate_progressBar();
         }, this.progress.animationInterval);
+
         this.animate_progressBar();
     }
 
@@ -184,7 +186,6 @@ export default class App {
         }
 
         this.progress.elem.css('width', this.progress.progressAmount + '%');
-
 
         // finish the loader when the number of iterations is reached
         if (this.progress.iteration == this.progress.maxIterations) {
