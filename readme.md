@@ -10,7 +10,7 @@ To run locally, clone the repo and run the following commands:
 
 # Notes
 * The image for the person logged in (lucy) was not available in assets in Zeplin, so I included another image
-* As mentioned to alex, there were font size / weight inconsistencies between the feed cards, so I applied the same styling for all cards. (Author text, body text, etc) 
+* As mentioned to Alex, there were font size / weight inconsistencies between the feed cards, so I applied the same styling for all cards. (Author text, body text, etc) 
 * It looks like there were 3 sets of icons uses (Ion icon, Font Awesome, Material) so I included both Material and Font Awesome libraries and used as similar (if not the same) icons.
 * Footer headings showed 600 font weight on Zeplin, but due to the font size, `font-weight: 500;` was more similar in the browser(s)
 * Although solutions exists to manually code masonry layouts with CSS grid, it has browser support and layout flaws that take quite a bit of time to hash out. One of the cleanest solution I have found (global support, simplicity) is to use the [Masonry plugin by Desandro](http://masonry.desandro.com). 
