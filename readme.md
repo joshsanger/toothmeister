@@ -36,7 +36,7 @@ The following browsers were tested and optimized:
 * Safari Ipad (iOS 9.3.5)
 * Safari Mac 11.0.2
 
-# Languages / tools Used
+# Languages / Tools Used
 * Less / CSS3
 * HTML5
 * JavaScript Es6
@@ -46,4 +46,4 @@ The following browsers were tested and optimized:
 * Grunt
 * Npm
 
-> Coded with <3 by [Joshua Sanger](http://joshuasanger.ca)
+> Custom coded with <3 by [Joshua Sanger](http://joshuasanger.ca)
